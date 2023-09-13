@@ -1,0 +1,4 @@
+name: ChangeTradeSample
+version: '${version}'
+main: marumasa.changetradesample.ChangeTradeSample
+api-version: '1.16'
