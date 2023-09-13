@@ -20,6 +20,7 @@ public class Events implements Listener {
         // 職業が変更された村人を取得
         Villager villager = event.getEntity();
 
+        // 1 tick後に 取引内容を変更する処理をするように設定
         new setRecipes(villager).runTaskLater(pl, 1);
     }
 }
